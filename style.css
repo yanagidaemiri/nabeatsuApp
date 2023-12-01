@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.red-text {
+    color: red;
+    font-size: 1.5em; /* 例えば1.5倍のサイズに設定 */
+}
+
+.fixed-controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.horizontal li {
+    margin: 5px;
+}
+
